@@ -3,119 +3,160 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Raghavendra Jetti | AgTech Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <title>Raghavendra Jetti | AgTech & UAV Specialist</title>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
+  <!-- Hero -->
   <header class="hero">
+    <div class="overlay"></div>
     <div class="hero-content">
-      <div class="hero-text">
+
+      <!-- Left side: Text -->
+      <div class="text-box">
         <h1>Raghavendra Jetti</h1>
-        <p class="tagline">AgTech • Robotics • UAVs • Precision Agriculture</p>
-        <a href="#projects" class="btn">View My Work</a>
+        <p class="tagline">AgTech • UAVs • Robotics • Sustainability</p>
+        <a href="#projects" class="btn">Explore My Work</a>
       </div>
-      <img src="IMG_0876.jpg" alt="Raghavendra Jetti" class="hero-photo">
+
+      <!-- Right side: Image -->
+      <div class="image-box">
+        <img src="IMG_0876.jpg" alt="Raghavendra Jetti">
+      </div>
     </div>
   </header>
 
-  <nav class="navbar">
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#experience">Experience</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
+  <!-- About -->
+  <section class="about section" id="about">
+    <h2>About Me</h2>
+    <p>
+    As a Research Technician at the University of Nebraska–Lincoln, I support precision agriculture through lab work, field operations, data analysis, and UAV applications. I hold a Master’s in Information Technology Management and a B.Sc. in Agriculture, and I am passionate about integrating agriculture and technology to drive sustainable, data-driven farming solutions.
+    </p>
+  </section>
 
-  <section id="about" class="two-col">
-    <div>
-      <h2>About Me</h2>
+  <!-- Skills -->
+  <section class="skills section" id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <span>Drone Piloting</span>
+      <span>Precision Agriculture</span>
+      <span>Python & C++</span>
+      <span>GIS Mapping</span>
+      <span>Field Data Collection</span>
+      <span>Robotics Integration</span>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="experience section" id="experience">
+    <h2>Professional Experience</h2>
+
+    <div class="exp-entry">
+      <div class="exp-title">Research Technician</div>
+      <div class="exp-org">University of Nebraska–Lincoln</div>
+      <div class="exp-date">Sep 2025 – Present</div>
       <p>
-        I'm an FAA-certified AgTech researcher focused on advanced agricultural technologies, UAV operations, and sustainable farming practices.
-        Currently working in the MAARS Lab at the University of Nebraska–Lincoln, I explore cutting-edge solutions for modern agriculture.
+        Conduct field and lab research in robotics and precision agriculture. Deploy drones and autonomous machines for data-driven crop insights.
       </p>
     </div>
-    <img src="images/about.jpg" alt="About" />
-  </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-      <div class="skill-card"><img src="images/drone-icon.png"><p>Drone Operations</p></div>
-      <div class="skill-card"><img src="images/robotics-icon.png"><p>Robotics & Automation</p></div>
-      <div class="skill-card"><img src="images/data-icon.png"><p>Data Analytics</p></div>
-      <div class="skill-card"><img src="images/gps-icon.png"><p>GPS & Autosteer Systems</p></div>
+    <div class="exp-entry">
+      <div class="exp-title">Field Assistant</div>
+      <div class="exp-org">Reo Agri Sciences</div>
+      <div class="exp-date">Jul 2020 – Dec 2022</div>
+      <p>
+        Assisted in field trials, crop monitoring, and sustainable agri-input development.
+      </p>
+    </div>
+
+    <div class="exp-entry">
+      <div class="exp-title">Agriculture Technician (Intern)</div>
+      <div class="exp-org">ShivaShakti Bio Technologies LTD</div>
+      <div class="exp-date">Dec 2019 – Mar 2020</div>
+      <p>
+        Monitored pests, implemented irrigation systems, and collected data for research trials.
+        
+      </p>
+    </div>
+
+    <div class="exp-entry">
+      <div class="exp-title">Area Business Development Manager</div>
+      <div class="exp-org">Narasimha Pesticides & Fertilizers</div>
+      <div class="exp-date">Jul 2017 – Dec 2022</div>
+      <p>
+        Led agricultural outreach, farmer engagement, and product distribution across rural India.
+      </p>
+    </div>
+
+    <div class="exp-entry">
+      <div class="exp-title">Rural Agriculture work Experience (RAWE)</div>
+      <div class="exp-org">ICAR-Indian Council of Agricultural Research</div>
+      <div class="exp-date">Aug 2019 – Nov 2019</div>
+      <p>
+        During my RAWE program, I gained hands-on experience working with farmers on crop cultivation, pest management, soil and irrigation practices, and field data collection, strengthening my understanding of sustainable agriculture and rural development.
+      </p>
+
     </div>
   </section>
 
-  <section id="experience" class="two-col reverse">
-    <div>
-      <h2>Professional Experience</h2>
+  <!-- Education-->
+  <section class="education section" id="education">
+    <h2>Education</h2>
 
-      <div class="job">
-        <h3>Research Technician</h3>
-        <span>University of Nebraska–Lincoln | Sep 2025 – Present | Lincoln, NE</span>
-        <ul>
-          <li>Research in MAARS Lab: robotics, automation, UAVs</li>
-          <li>Data collection using drones and sensors</li>
-        </ul>
-      </div>
-
-      <div class="job">
-        <h3>Field Assistant</h3>
-        <span>Reo Agri Sciences | Jul 2020 – Dec 2022 | Andhra Pradesh, India</span>
-        <ul>
-          <li>Crop monitoring, field trials, soil sampling</li>
-        </ul>
-      </div>
-
-      <div class="job">
-        <h3>Area Business Development Manager</h3>
-        <span>Narasimha Pesticides & Fertilizers | Jul 2017 – Dec 2022 | Guntur, India</span>
-        <ul>
-          <li>Farmer engagement, input distribution, training</li>
-        </ul>
-      </div>
+    <div class="edu-entry">
+      <div class="edu-degree">Master of Science in Information Technology Management</div>
+      <div class="edu-institution">St.Francis College–Brooklyn,NY</div>
+      <div class="edu-date">Jan 2023 – Aug 2024</div>
     </div>
-    <img src="images/experience.jpg" alt="Experience Photo" />
-  </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="projects-grid">
+    <div class="edu-entry">
+      <div class="edu-degree">Bachelor of Science in Agriculture</div>
+      <div class="edu-institution">Singhania University-Rajasthan,India</div>
+      <div class="edu-date">Aug 2016 – May 2020</div>
+
+  <!-- Projects -->
+  <section class="projects section" id="projects">
+    <h2>Featured Projects</h2>
+    <div class="project-grid">
       <div class="project-card">
-        <img src="images/project1.jpg" alt="Cover Crop">
-        <div class="project-info">
-          <h3>Alternative Cover Crop Termination</h3>
-          <p>Using UV-C, electrocution, and heat to replace herbicides.</p>
-        </div>
+        <h3>Cover Crop Termination (ACCT)</h3>
+        <p>
+          Developed sustainable cover crop destruction using UV-C, thermal, and electric systems without herbicides.
+        </p>
       </div>
       <div class="project-card">
-        <img src="images/project2.jpg" alt="Spraying Drone">
-        <div class="project-info">
-          <h3>Precision Spraying Drone</h3>
-          <p>UAV-based pesticide spraying with high accuracy.</p>
-        </div>
+        <h3>UAV Spraying System</h3>
+        <p>
+          Designed drone-based pesticide sprayers using GPS for targeted, efficient field treatment.
+        </p>
       </div>
     </div>
   </section>
 
-  <section id="contact">
+  <!-- Contact -->
+  <section class="contact section" id="contact">
     <h2>Contact Me</h2>
-    <ul class="contact-list">
-      <li>📧 rjetti2@unl.edu</li>
-      <li>📞 +1 (959) 288-9771</li>
-      <li>
-        <a href="https://linkedin.com/in/raghavendra-jetti"><img src="images/linkedin.png" alt="LinkedIn" /></a>
-        <a href="https://github.com/RAGHAVA-3103"><img src="images/github.png" alt="GitHub" /></a>
-        <a href="Raghavendra_Jetti_Resume.pdf" download><img src="images/resume-icon.png" alt="Resume" /></a>
-      </li>
-    </ul>
+    <p>📧 rjetti2@unl.edu</p>
+    <p>📞 +1 (959) 282-9771</p>
+    <div class="socials">
+      <a href="https://linkedin.com/in/raghavendra-jetti" target="_blank">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>
+      <a href="https://github.com/RAGHAVA-3103" target="_blank">
+        <i class="fab fa-github"></i> Github
+      </a>
+      <a href="Raghavendra Jetti CV copy.pdf" target="_blank">
+        <i class="fas fa-file-pdf"></i> Resume
+      </a>
+    </div>
   </section>
 
+  <!-- Footer -->
   <footer>
-    <p>© 2026 Raghavendra Jetti</p>
+    <p>© 2026 Raghavendra Jetti. All rights reserved.</p>
   </footer>
 
 </body>

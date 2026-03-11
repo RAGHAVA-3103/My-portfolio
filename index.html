@@ -3,158 +3,131 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
   <title>Raghavendra Jetti | UAV & Agricultural Robotics Engineer</title>
 
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
-
-  <!-- Font Awesome -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-
-  <!-- Main CSS -->
   <link rel="stylesheet" href="styles.css" />
 
-  <!-- SEO -->
   <meta name="description" content="FAA Part 107 Certified UAV & Agricultural Robotics Engineer specializing in PX4, ROS2, autonomous systems, and precision agriculture." />
   <meta name="keywords" content="Raghavendra Jetti, UAV Engineer, Agricultural Robotics, PX4, ROS2, AgTech, Drone Specialist">
   <meta name="author" content="Raghavendra Jetti">
   <meta name="robots" content="index, follow">
-
-  <!-- Open Graph -->
   <meta property="og:title" content="Raghavendra Jetti | UAV & Agricultural Robotics Engineer" />
   <meta property="og:description" content="FAA Certified UAV Pilot | Robotics | Precision Agriculture | Autonomy Systems" />
   <meta property="og:image" content="https://raghavendrajetti.website/jetti%20pic.jpeg" />
   <meta property="og:url" content="https://raghavendrajetti.website" />
   <meta name="twitter:card" content="summary_large_image" />
-
 </head>
 
 <body>
-
-<!-- ================= NAVBAR ================= -->
-
 <nav class="navbar">
   <div class="logo">RJ</div>
-  <ul>
+  <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav">
+    <i class="fas fa-bars"></i>
+  </button>
+  <ul id="main-nav">
     <li><a href="#about">About</a></li>
     <li><a href="#stack">Tech Stack</a></li>
     <li><a href="#projects">Projects</a></li>
+    <li><a href="#github">GitHub</a></li>
     <li><a href="#experience">Experience</a></li>
     <li><a href="#education">Education</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
 
-<!-- ================= HERO ================= -->
-
 <header class="hero">
   <div class="hero-content">
-
     <div class="text-box">
+      <p class="eyebrow">UAV • Robotics • Precision Agriculture</p>
       <h1>Raghavendra Jetti</h1>
       <p class="tagline">
-        FAA Part 107 Certified UAV Pilot <br>
-        Agricultural Robotics & Autonomy Engineer
+        FAA Part 107 Certified UAV Pilot and Agricultural Robotics Engineer building
+        reliable autonomy workflows for real-world field operations.
       </p>
-      <a href="#projects" class="btn">Explore My Engineering Work</a>
+      <div class="hero-cta">
+        <a href="#projects" class="btn">Explore Projects</a>
+        <a href="https://github.com/RAGHAVA-3103" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">View GitHub Profile</a>
+      </div>
+      <div class="hero-highlights">
+        <span><i class="fas fa-satellite-dish"></i> PX4 + ROS2 Systems</span>
+        <span><i class="fas fa-seedling"></i> AgTech Field Trials</span>
+        <span><i class="fas fa-map-marked-alt"></i> Precision Mapping</span>
+      </div>
     </div>
 
     <div class="image-box">
-      <div class="glow-circle"></div>
-      <img src="jetti pic.jpeg" alt="Raghavendra Jetti">
+      <img src="jetti pic.jpeg" alt="Raghavendra Jetti portrait" loading="eager">
     </div>
-
   </div>
 </header>
 
-<!-- ================= ABOUT ================= -->
-
 <section id="about" class="section">
   <h2>About</h2>
-  <p>
-    I specialize in autonomy-enabled UAV systems, agricultural robotics,
-    and precision field operations. Currently working at the MAARS Lab,
-    University of Nebraska–Lincoln, I integrate hardware, software,
-    and field data to build scalable AgTech solutions.
+  <p class="section-subtitle">
+    I specialize in autonomy-enabled UAV systems, agricultural robotics, and precision field operations.
+    At MAARS Lab (University of Nebraska–Lincoln), I connect hardware, software, and data pipelines
+    to deliver practical and scalable AgTech outcomes.
   </p>
 </section>
-
-<!-- ================= TECH STACK ================= -->
 
 <section id="stack" class="section">
   <h2>Technical Stack</h2>
   <div class="skills-container">
-    <span>PX4</span>
-    <span>ArduPilot</span>
-    <span>Mission Planner</span>
-    <span>ROS 2</span>
-    <span>Python</span>
-    <span>C++</span>
-    <span>OpenCV</span>
-    <span>Cube Orange</span>
-    <span>Raspberry Pi</span>
-    <span>Linux / Ubuntu</span>
-    <span>Git / GitHub</span>
-    <span>Power BI</span>
+    <span>PX4</span><span>ArduPilot</span><span>Mission Planner</span><span>ROS 2</span>
+    <span>Python</span><span>C++</span><span>OpenCV</span><span>Cube Orange</span>
+    <span>Raspberry Pi</span><span>Linux / Ubuntu</span><span>Git / GitHub</span><span>Power BI</span>
   </div>
 </section>
-
-<!-- ================= PROJECTS ================= -->
 
 <section id="projects" class="section">
   <h2>Selected Engineering Projects</h2>
   <div class="project-grid">
-
-    <div class="project-card">
+    <article class="project-card">
       <h3>Autonomous UAV Flight (PX4 + ROS2)</h3>
-      <p>
-        Developing autonomous mission workflows using SITL simulations,
-        waypoint navigation, RTL protocols, and ROS2 control loops.
-      </p>
-    </div>
+      <p>Built and tested mission workflows in SITL with waypoint navigation, RTL safety logic, and ROS2 control integration.</p>
+      <a class="project-link" href="https://github.com/RAGHAVA-3103" target="_blank" rel="noopener noreferrer">View on GitHub <i class="fas fa-arrow-up-right-from-square"></i></a>
+    </article>
 
-    <div class="project-card">
+    <article class="project-card">
       <h3>Manure Handling UGV Prototype</h3>
-      <p>
-        Cube Orange-powered agricultural robot with IMU/GPS integration,
-        motor control, obstacle avoidance, and safety architecture.
-      </p>
-    </div>
+      <p>Designed a Cube Orange-powered UGV with IMU/GPS fusion, motor control stack, and obstacle-aware navigation.</p>
+      <a class="project-link" href="https://github.com/RAGHAVA-3103" target="_blank" rel="noopener noreferrer">View on GitHub <i class="fas fa-arrow-up-right-from-square"></i></a>
+    </article>
 
-    <div class="project-card">
+    <article class="project-card">
       <h3>Weed Locator Vision Pipeline</h3>
-      <p>
-        UAV-based weed detection using computer vision,
-        geo-referenced mapping, and automated scouting outputs.
-      </p>
-    </div>
+      <p>Developed UAV image workflows for weed localization, geo-referenced mapping, and field scouting decision support.</p>
+      <a class="project-link" href="https://github.com/RAGHAVA-3103" target="_blank" rel="noopener noreferrer">View on GitHub <i class="fas fa-arrow-up-right-from-square"></i></a>
+    </article>
 
-    <div class="project-card">
+    <article class="project-card">
       <h3>Alternative Cover Crop Termination</h3>
-      <p>
-        Non-herbicidal termination systems including UV-C,
-        thermal, and electrocution-based research methods.
-      </p>
-    </div>
-
+      <p>Evaluated non-herbicidal methods including UV-C, thermal, and electrocution-based concepts for sustainable operations.</p>
+      <a class="project-link" href="https://github.com/RAGHAVA-3103" target="_blank" rel="noopener noreferrer">View on GitHub <i class="fas fa-arrow-up-right-from-square"></i></a>
+    </article>
   </div>
 </section>
 
-<!-- ================= EXPERIENCE ================= -->
+<section id="github" class="section">
+  <h2>GitHub & Open Source</h2>
+  <div class="github-panel">
+    <p>I regularly publish and iterate on robotics and automation work on GitHub. Explore repositories, activity, and ongoing portfolio updates.</p>
+    <a href="https://github.com/RAGHAVA-3103" target="_blank" rel="noopener noreferrer" class="btn">Visit My GitHub</a>
+  </div>
+</section>
 
 <section id="experience" class="section">
   <h2>Professional Experience</h2>
-
   <div class="exp-entry">
     <h3>Research Technician – MAARS Lab</h3>
     <p><strong>University of Nebraska–Lincoln</strong> | Sep 2025 – Present</p>
     <ul>
       <li>Operate UAV systems for aerial mapping and crop monitoring.</li>
       <li>Deploy robotics for automated phenotyping and planting tasks.</li>
-      <li>Support sustainability-focused field trials.</li>
-      <li>Operate GPS-enabled tractors for precision field operations.</li>
-      <li>Collect soil, plant, and environmental data.</li>
+      <li>Support sustainability-focused field trials and GPS-enabled tractor operations.</li>
+      <li>Collect and validate soil, crop, and environmental data.</li>
     </ul>
   </div>
 
@@ -162,8 +135,8 @@
     <h3>Field Assistant / Data Analyst</h3>
     <p><strong>Reo Agri Science Pvt. Ltd.</strong> | Jan 2020 – Dec 2022</p>
     <ul>
-      <li>Built Power BI dashboards and performed agribusiness analytics.</li>
-      <li>Supported crop trials and field data documentation.</li>
+      <li>Built Power BI dashboards and conducted agribusiness analytics.</li>
+      <li>Managed crop trial documentation and field-level reporting.</li>
     </ul>
   </div>
 
@@ -171,8 +144,8 @@
     <h3>Agriculture Technician (Intern)</h3>
     <p><strong>ShivaShakti Bio Technologies Ltd</strong> | Dec 2019 – Mar 2020</p>
     <ul>
-      <li>Soil analysis, pest monitoring, irrigation systems.</li>
-      <li>Structured field data collection and yield optimization.</li>
+      <li>Supported soil analysis, pest monitoring, and irrigation optimization.</li>
+      <li>Improved structure of field-data capture for yield analysis.</li>
     </ul>
   </div>
 
@@ -180,27 +153,14 @@
     <h3>Area Business Development Manager</h3>
     <p><strong>Narasimha Pesticides & Fertilizers</strong> | Jul 2017 – Dec 2022</p>
     <ul>
-      <li>Led regional agricultural outreach and sales strategy.</li>
-      <li>Managed farmer engagement programs.</li>
+      <li>Led regional agricultural outreach and crop advisory programs.</li>
+      <li>Coordinated farmer engagement and seasonal product planning.</li>
     </ul>
   </div>
-
-  <div class="exp-entry">
-    <h3>RAWE Intern</h3>
-    <p><strong>ICAR – Indian Council of Agricultural Research</strong> | Aug 2019 – Nov 2019</p>
-    <ul>
-      <li>Field cultivation guidance and pest management support.</li>
-      <li>Rural agricultural data collection.</li>
-    </ul>
-  </div>
-
 </section>
-
-<!-- ================= EDUCATION ================= -->
 
 <section id="education" class="section">
   <h2>Education</h2>
-
   <div class="edu-entry">
     <h3>M.S. Information Technology Management</h3>
     <p><strong>St. Francis College – Brooklyn, NY</strong> | 2023 – 2024</p>
@@ -211,33 +171,42 @@
     <h3>B.S. Agriculture</h3>
     <p><strong>Singhania University – India</strong> | 2016 – 2020</p>
   </div>
-
 </section>
-
-<!-- ================= CONTACT ================= -->
 
 <section id="contact" class="section contact">
   <h2>Let’s Build the Future of AgTech</h2>
-
   <p><i class="fas fa-envelope"></i> rjetti2@unl.edu</p>
   <p><i class="fas fa-phone"></i> +1 (959) 282-9771</p>
 
   <div class="socials">
-    <a href="https://linkedin.com/in/raghavendra-jetti" target="_blank">
-      <i class="fab fa-linkedin"></i> LinkedIn
-    </a>
-    <a href="https://github.com/RAGHAVA-3103" target="_blank">
-      <i class="fab fa-github"></i> GitHub
-    </a>
-    <a href="Raghavendra Jetti AgTech CV.pdf" target="_blank">
-      <i class="fas fa-file-pdf"></i> Resume
-    </a>
+    <a href="https://linkedin.com/in/raghavendra-jetti" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    <a href="https://github.com/RAGHAVA-3103" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+    <a href="Raghavendra Jetti AgTech CV.pdf" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf"></i> Resume</a>
   </div>
 </section>
 
 <footer>
-  <p>© 2026 Raghavendra Jetti | UAV & Robotics Engineer</p>
+  <p>© <span id="year"></span> Raghavendra Jetti | UAV & Robotics Engineer</p>
 </footer>
 
+<script>
+  const toggle = document.querySelector('.menu-toggle');
+  const navList = document.querySelector('.navbar ul');
+  const navLinks = document.querySelectorAll('.navbar a');
+
+  toggle?.addEventListener('click', () => {
+    const isOpen = navList.classList.toggle('show');
+    toggle.setAttribute('aria-expanded', String(isOpen));
+  });
+
+  navLinks.forEach((link) => {
+    link.addEventListener('click', () => {
+      navList.classList.remove('show');
+      toggle?.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
